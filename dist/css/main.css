@@ -1,0 +1,193 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(5, 61, 117)), to(rgb(0, 152, 177)));
+  background-image: linear-gradient(to bottom, rgb(5, 61, 117), rgb(0, 152, 177));
+}
+
+.title {
+  font-weight: 600;
+  font-size: 3.75rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: rgb(255, 255, 255);
+  margin-left: 2rem;
+}
+
+.txt-clock {
+  font-weight: 600;
+  font-size: 1.375rem;
+  color: rgb(255, 255, 255);
+  padding-top: 1rem;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.txt-clock span {
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: rgb(255, 255, 255);
+}
+
+.title span {
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.txt-name-province {
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: rgb(255, 255, 255);
+  padding: 0.8rem 0 0 0.8rem;
+}
+
+.txt-name-province span {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: rgb(255, 255, 255);
+}
+
+.txt-name-canton {
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: rgb(255, 255, 255);
+  padding: 0.8rem 0 0 0.8rem;
+}
+
+.txt-name-canton span {
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.txt-cloudines {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: rgb(255, 255, 255);
+  padding: 0 0 0 0.8rem;
+  margin: -1rem 0 1.1rem;
+}
+
+.txt-celsius-degress {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.txt-temp {
+  font-weight: 400;
+  font-size: 0.938rem;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.txt-cart {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  padding: 0 0 0 0.8rem;
+  margin-top: -0.5rem;
+}
+
+.card-blue {
+  margin: 2.469rem;
+  background-color: #007AFF;
+  height: 14.063rem;
+  border-radius: 0.625rem;
+}
+
+.card-yellow {
+  margin: 2.469rem;
+  background-color: #EED202;
+  height: 14.063rem;
+  border-radius: 0.625rem;
+}
+
+.card-orange {
+  margin: 2.469rem;
+  background-color: #FFA500;
+  height: 14.063rem;
+  border-radius: 0.625rem;
+}
+
+.card-red {
+  margin: 2.469rem;
+  background-color: #FF0000;
+  height: 14.063rem;
+  border-radius: 0.625rem;
+}
+
+.card-dark-red {
+  margin: 2.469rem;
+  background-color: #BE0032;
+  height: 14.063rem;
+  border-radius: 0.625rem;
+}
+
+.card-very-dark-red {
+  margin: 2.469rem;
+  background-color: #A50021;
+  height: 14.063rem;
+  border-radius: 0.625rem;
+}
+
+.card-clock {
+  margin: 2.469rem;
+  background-color: #007AFF;
+  height: 6.5rem;
+  border-radius: 0.625rem;
+}
+
+.pt-1 {
+  padding-top: 2.938rem;
+}
+
+.pl-1 {
+  padding-left: 5%;
+}
+
+.pl-2 {
+  padding-left: 5%;
+}
+
+.pl-3 {
+  padding-left: 10%;
+}
+
+.row-section {
+  display: block;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -1.3rem;
+  padding: 1rem 0.8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -1rem;
+}
+
+.row-1 div {
+  padding: 1.6rem 1.5rem 0 0;
+  margin-left: auto;
+}

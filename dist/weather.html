@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <section id="app">
+        <!-- Title -->
+        <h1 class="title">Weather<br><span>Costa Rica</span></h1>
+        <!-- Title -->
+        <!-- Start clock -->
+        <card-clock></card-clock>
+        <!-- End clock -->
+        <!-- Start CardCantones -->
+        <h1 class="subtitle">Favoritos</h1>
+        <div v-for="(item, index) in cordinates" class="row-section">
+            <card-canton :latitute="item.latitute" :longitude="item.longitude">
+            </card-canton>
+        </div>
+        <!-- End CardCantones -->
+        <!-- Start CardProvinces -->
+        <h1 class="subtitle">Provincias</h1>
+        <div v-for="(item, index) in provinces" class="row-section">
+            <card-province :province="item">
+            </card-province>
+        </div>
+        <!-- End CardProvinces -->
+
+    </section>
+
+
+    <!-- AXIOS API JS-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!-- VueJS -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!--main script-->
+    <script src="js/main.js"></script>
+
+    <!--components js-->
+    <script src="js/components/Card-province.js"></script>
+    <script src="js/components/Card-canton.js"></script>
+    <script src="js/components/Card-clock.js"></script>
+
+    <script>
+        const mountedApp = app.mount("#app");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+@use '../abstracts/mixins';
+@use '../abstracts/vars';
+
+.card-blue{
+    @include mixins.set-card(vars.$clr-blue);
+}
+
+.card-yellow{
+    @include mixins.set-card(vars.$clr-yellow);
+}
+
+.card-orange{
+    @include mixins.set-card(vars.$clr-orange);
+}
+
+.card-red{
+    @include mixins.set-card(vars.$clr-red);
+}
+
+.card-dark-red{
+    @include mixins.set-card(vars.$clr-dark-red);
+}
+
+.card-very-dark-red{
+    @include mixins.set-card(vars.$clr-very-dark-red);
+}
+
+.card-clock{
+        margin: 2.469rem;
+        background-color: vars.$clr-blue;
+        height: 6.5rem;
+        border-radius: 0.625rem;
+}
+
+
+

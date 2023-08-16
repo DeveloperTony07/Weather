@@ -1,0 +1,62 @@
+@use '../abstracts/mixins';
+@use '../abstracts/vars';
+
+.title{
+    @include mixins.set-font(vars.$fw-semibold, vars.$fs-lg, vars.$clr-white);
+    text-align: center;
+}
+
+.txt-clock{
+    @include mixins.set-font(vars.$fw-semibold, vars.$fs-med, vars.$clr-white);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.txt-clock span{
+    @include mixins.set-font(vars.$fw-regular, vars.$fs-med, vars.$clr-white);
+}
+
+.title span{
+    @include mixins.set-font(vars.$fw-ligth, vars.$fs-xxmed, vars.$clr-white);
+}
+
+.txt-name-province{
+    @include mixins.set-font(vars.$fw-bold, vars.$fs-med, vars.$clr-white );
+    padding: 0.8rem 0 0 0.8rem; //16px 0 0 19.4px
+}
+
+.txt-name-province span{
+    @include mixins.set-font(vars.$fw-regular, vars.$fs-xxsm, vars.$clr-white);
+}
+
+.txt-name-canton{
+    @include mixins.set-font(vars.$fw-bold, vars.$fs-med, vars.$clr-white );
+    padding: 0.8rem 0 0 0.8rem; //16px 0 0 19.4px
+}
+
+.txt-name-canton span{
+    @include mixins.set-font(vars.$fw-semibold, vars.$fs-sm, vars.$clr-white);
+}
+
+.txt-cloudines{
+    @include mixins.set-font(vars.$fw-regular, vars.$fs-xxsm, vars.$clr-white);
+    padding: 0 0 0 0.8rem; //16px 0 0 19.4px
+    margin: -1rem 0 1.1rem;
+}
+
+.txt-celsius-degress{
+    @include mixins.set-font(vars.$fw-bold, vars.$fs-xmed, vars.$clr-white);
+    margin: 0;
+}
+
+.txt-temp{
+    @include mixins.set-font(vars.$fw-regular, vars.$fs-xsm, vars.$clr-white);
+    margin: 0;
+}
+
+.txt-cart{
+    @include mixins.set-font(vars.$fw-regular, vars.$fs-sm, vars.$clr-white);
+    padding: 0 0 0 0.8rem;//0 0 0 19.4px
+    margin-top: -0.5rem;
+}

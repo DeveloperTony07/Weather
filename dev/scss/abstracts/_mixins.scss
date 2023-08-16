@@ -1,0 +1,12 @@
+@mixin set-font($fweight, $fsize, $fcolor){
+    font-weight: $fweight;
+    font-size: $fsize ;   
+    color: $fcolor;
+}
+
+@mixin set-card($color){
+    margin: 2.469rem;
+    background-color: $color;
+    height: 14.063rem;
+    border-radius: 0.625rem;
+}

@@ -1,0 +1,10 @@
+@use '../abstracts/vars';
+
+html{
+    box-sizing: border-box;
+    font-family: vars.$ff;
+}
+
+body{
+    background-image: linear-gradient(to bottom, vars.$clr-dark-blue, vars.$clr-cian);
+}
